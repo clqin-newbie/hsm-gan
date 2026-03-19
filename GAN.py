@@ -5,7 +5,6 @@ from utils.tool import set_random_seed, model_summary
 from pymatgen.core.composition import Composition
 from GAN.gan import DiscriminatorLinear, GeneratorLinear
 from tqdm.auto import tqdm
-from heas import *
 from utils.tool import *
 import pandas as pd
 import os
